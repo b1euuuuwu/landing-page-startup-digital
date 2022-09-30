@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from 'react-typed'
+import Typed from 'react-typed' 
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
             <p className='md:text-2xl sm:text-xl font-bold text-gray-500 md:pl-6'>
                 Monitor your data analytics to increase revenue for BTC, BTB, and SASS platforms
             </p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300]'>Get Started</button>
+            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300] hover:scale-105 duration-300'>Get Started</button>
         </div>
     </div>
   )
