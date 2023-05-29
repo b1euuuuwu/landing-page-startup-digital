@@ -9,36 +9,44 @@ const Cards = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
-            <p className='text-4xl text-center font-bold'>$149</p>
+            <h2 className='text-2xl font-bold text-center py-8'>Free</h2>
+            <p className='text-4xl text-center font-bold'>$0</p>
             <div className='text-center font-medium'>
-              <p className='py-2 border-b mx-8 mt-1'>500 GB Storage</p>
+              <p className='py-2 border-b mx-8 mt-1'>Real-time Tracking</p>
               <p className='py-2 border-b mx-8'>1 Granted User</p>
-              <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
+              <p className='py-2 border-b mx-8'>Send up to 10 packages per week</p>
+              <p className='py-2 border-b mx-8 mt-1'>No Service Recommendation System</p>
+              <p className='py-2 border-b mx-8 mt-1'> No Designated Support Manager</p>
             </div>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Free Trial</button>
+            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Double} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8'>Dual User</h2>
-            <p className='text-4xl text-center font-bold'>$199</p>
+            <h2 className='text-2xl font-bold text-center py-8'>Pro</h2>
+            <p className='text-4xl text-center font-bold'>$30</p>
             <div className='text-center font-medium'>
-              <p className='py-2 border-b mx-8 mt-1'>1 TB Storage</p>
-              <p className='py-2 border-b mx-8'>2 Granted Users</p>
-              <p className='py-2 border-b mx-8'>Send up to 5 GB</p>
+              <p className='py-2 border-b mx-8 mt-1'>Real-Time Tracking</p>
+              <p className='py-2 border-b mx-8'>10 Granted Users</p>
+              <p className='py-2 border-b mx-8'>Send up to 20 packages per week</p>
+              <p className='py-2 border-b mx-8 mt-1'>Service Recommendation System</p>
+              <p className='py-2 border-b mx-8 mt-1'> No Designated Support Manager</p>
+              
           </div>
-          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Free Trial</button>
+          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8'>Multi User</h2>
-            <p className='text-4xl text-center font-bold'>$249</p>
+            <h2 className='text-2xl font-bold text-center py-8'>Enterprise</h2>
+            <p className='text-4xl text-center font-bold'>$100</p>
             <div className='text-center font-medium'>
-              <p className='py-2 border-b mx-8 mt-1'>2 TB Storage</p>
-              <p className='py-2 border-b mx-8'>Up to 10 Users</p>
-              <p className='py-2 border-b mx-8'>Send up to 10 GB</p>
+              <p className='py-2 border-b mx-8 mt-1'>Real-Time Tracking</p>
+              <p className='py-2 border-b mx-8'>25 Granted Users</p>
+              <p className='py-2 border-b mx-8'>Send up to 75 packages per week</p>
+              <p className='py-2 border-b mx-8 mt-1'>Service Recommendation System</p>
+              <p className='py-2 border-b mx-8 mt-1'>Designated Support Manager</p>
+
           </div>
-          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Free Trial</button>
+          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
         </div>
     </div>

@@ -6,27 +6,29 @@ const Hero = () => {
     <div className='text-white'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#00df9a] font-bold p-2'>
-                GROWING WITH DATA ANALYTICS
+                GROWING WITH DATA
             </p>
-            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold med:py-6'>Growth with data.</h1>
+            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold med:py-6'>Welcome to Shipmate!</h1>
             <div className='flex justify-center items-center pt-4'>
                 <p className='md:text-4xl sm:text-2xl text-xl font-bold pl-4'>
-                    Fast, flexible financing for 
+                    We Improve
                 </p>
                 <Typed 
                 className='md:text-4xl sm:text-2xl text-xl font-bold md:pl-4 pl-2'
                 strings={[
-                    'BTC',
-                    'BTB',
-                    'SASS'
+                    'Efficiency',
+                    'Reliability'
                 ]}
-                typeSpeed={150}
-                backSpeed={170}
+                typeSpeed={75}
+                backSpeed={100}
                 loop>
                 </Typed>
+                <p className='md:text-4xl sm:text-2xl text-xl font-bold pl-4'>
+                    in Logistic Services
+                </p>
             </div>
             <p className='md:text-2xl sm:text-xl font-bold text-gray-500 md:pl-6'>
-                Monitor your data analytics to increase revenue for BTC, BTB, and SASS platforms
+                Monitor your logistic service with customizable support tailored for your business
             </p>
             <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300] hover:scale-105 duration-300'>Get Started</button>
         </div>
