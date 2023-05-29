@@ -3,9 +3,9 @@ import Typed from 'react-typed'
 
 const Hero = () => {
   return (
-    <div className='text-white'>
+    <div className='text-black'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-            <p className='text-[#00df9a] font-bold p-2'>
+            <p className='text-[#00FFFF] font-bold p-2'>
                 GROWING WITH DATA
             </p>
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold med:py-6'>Welcome to Shipmate!</h1>
@@ -27,10 +27,10 @@ const Hero = () => {
                     in Logistic Services
                 </p>
             </div>
-            <p className='md:text-2xl sm:text-xl font-bold text-gray-500 md:pl-6'>
+            <p className='md:text-2xl sm:text-xl font-bold text-gray-500 md:pl-6 my-2'>
                 Monitor your logistic service with customizable support tailored for your business
             </p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300] hover:scale-105 duration-300'>Get Started</button>
+            <button className='bg-[#00FFFF] w-[200px] rounded-md font-medium my-5 mx-auto py-3 text-white hover:scale-105 duration-300'>Get Started</button>
         </div>
     </div>
   )
