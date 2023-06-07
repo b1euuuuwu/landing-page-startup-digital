@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
-            <h1 className='w-full text-3xl font-bold text-[#00FFFF]'>SHIPMATE.</h1>
+            <h1 className='w-full text-3xl font-bold text-[#23395d]'>SHIPMATE.</h1>
             <p className='py-4'>Take your first step towards a seamless logistical experience, partner with shipmate and briing possibilites to your business, Don't miss out on this opportunity to fast-track your success!</p>
                 <div className='flex justify-between md:w-[75%] my-6'>
                     <FaFacebookSquare size={30} />

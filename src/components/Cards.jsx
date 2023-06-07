@@ -17,7 +17,7 @@ const Cards = () => {
               <p className='py-2 border-b mx-8 mt-1'>No Service Recommendation System</p>
               <p className='py-2 border-b mx-8 mt-1'> No Designated Support Manager</p>
             </div>
-            <button className='bg-[#00FFFF] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
+            <button className='bg-[#23395d] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <h2 className='text-2xl font-bold text-center py-8'>Pro</h2>
@@ -30,7 +30,7 @@ const Cards = () => {
               <p className='py-2 border-b mx-8 mt-1'> No Designated Support Manager</p>
               
           </div>
-          <button className='bg-[#00FFFF] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
+          <button className='bg-[#23395d] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             {/* <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="/" /> */}
@@ -44,7 +44,7 @@ const Cards = () => {
               <p className='py-2 border-b mx-8 mt-1'>Designated Support Manager</p>
 
           </div>
-          <button className='bg-[#00FFFF] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
+          <button className='bg-[#23395d] text-white w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
           </div>
         </div>
     </div>
